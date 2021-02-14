@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20px;
+    background: linear-gradient(rgb(10, 10, 10), rgb(218, 73, 136)) ;
+    padding: 10px;
+}
+.navLink{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.linkIcon{
+    text-decoration: none;
+    padding-top: 5px;
+    color: white;
+
+}
+li{
+    font-size: 18px;
+}

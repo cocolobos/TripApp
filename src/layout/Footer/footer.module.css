@@ -1,0 +1,14 @@
+.footerSide{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    justify-content: space-around;
+    background-color: rgb(238, 122, 14);
+    color: rgba(165, 42, 42, 0.699);
+    height: 28px;
+}
+.footerP{
+    color: rgba(73, 55, 28, 0.658);
+}

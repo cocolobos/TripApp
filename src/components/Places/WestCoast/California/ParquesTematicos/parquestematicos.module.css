@@ -1,0 +1,92 @@
+.mainBack{
+background: linear-gradient(to right,rgb(6, 221, 60), rgb(250, 120, 14),rgb(216, 56, 203), rgb(255, 255, 255) );
+}
+.introP{
+width: 98%;
+padding-bottom: 5px;
+font-size: 22px;
+font-weight: 500;
+font-family: Arial, Helvetica, sans-serif;
+}
+img{
+width: 45%;
+border: 1px solid black
+}
+.imgStyle{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-bottom: 9px;   
+}
+.BtnModCancel {
+width: 20%;
+color: rgb(239, 222, 216);
+margin-left: 4%;
+margin-top: 40px;
+padding: 10px;
+background: linear-gradient(rgb(36, 20, 27), rgb(114, 96, 218)) ;
+border: none;
+font-weight: 600;
+font-size: 13px;
+cursor: pointer;
+justify-content: center;
+}
+.photoButton{
+width: 30%;
+margin-bottom: 40px;
+padding: 10px;
+color: rgb(51, 16, 3);
+background: rgb(163, 236, 120);
+box-shadow: 2px 2px 5px black;
+border: none;
+font-weight: 600;
+font-size: 25px;
+cursor: pointer;
+justify-content: center;
+}
+.photoButton:focus{
+outline-style: none;
+}
+.photoButton:hover{
+opacity: 0.4;
+}
+.BtnModCancel:hover {
+background: rgb(255, 129, 10);
+}
+.pageStyle{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.pageDesing{
+display: flex;
+flex-direction: column;
+width: 100%;
+background: rgb(119, 114, 110);
+box-shadow: 4px 2px 5px black;  
+}
+.sideBar{
+display: flex;
+width: 20%;
+flex-direction: column;
+justify-content: flex-start;
+}
+.uList{
+list-style: none;
+padding-right: 30px;
+text-align: center;
+}
+.contentDesing{
+display: flex;
+flex-direction: column;
+padding: 8px;
+width: 73%;
+border: 1px solid black;
+justify-content: center;
+}
+p{
+font-style: italic;
+color: rgb(20, 20, 10);
+font-size: 15px;
+font-weight: 600;
+}
