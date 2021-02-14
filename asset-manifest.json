@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TripApp/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/TripApp/static/js/main.c73269ad.chunk.js",
+    "main.js.map": "/TripApp/static/js/main.c73269ad.chunk.js.map",
+    "runtime-main.js": "/TripApp/static/js/runtime-main.0ccd772a.js",
+    "runtime-main.js.map": "/TripApp/static/js/runtime-main.0ccd772a.js.map",
+    "static/js/2.c530068e.chunk.js": "/TripApp/static/js/2.c530068e.chunk.js",
+    "static/js/2.c530068e.chunk.js.map": "/TripApp/static/js/2.c530068e.chunk.js.map",
+    "static/js/3.026668ce.chunk.js": "/TripApp/static/js/3.026668ce.chunk.js",
+    "static/js/3.026668ce.chunk.js.map": "/TripApp/static/js/3.026668ce.chunk.js.map",
+    "index.html": "/TripApp/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/TripApp/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.c530068e.chunk.js.LICENSE.txt": "/TripApp/static/js/2.c530068e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ccd772a.js",
+    "static/js/2.c530068e.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.c73269ad.chunk.js"
+  ]
+}
