@@ -7,7 +7,7 @@ function Nav () {
     return (
         <nav >
             <ul className={style.navLink}>
-            <Link className={style.link} to='/tripDream'>
+            <Link className={style.link} to='/TripApp'>
                 <li>Inicio</li>
             </Link>
             <Link className={style.linkIcon} to='/main'>

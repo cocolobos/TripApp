@@ -19,7 +19,7 @@ function Main () {
                             <button className={style.destiny} onClick={() => setOpenModal(false)}>Europe</button>
                         </Link>
                         <Link to='/thailand'>
-                            <button className={style.destiny} onClick={() => setOpenModal(false)}>Thailand</button>
+                            <button className={style.destiny} onClick={() => setOpenModal(false)}>Sudeste Asiatico</button>
                         </Link>
                     </div>
                     <div className={style.columnB}>
@@ -27,7 +27,7 @@ function Main () {
                             <button className={style.usDestiny} onClick={() => setOpenModal(true) && <WestCoast/>}></button>
                         </Link>
                         <Link to='/latinamerica'>
-                            <button className={style.destiny} onClick={() => setOpenModal(false)}>Latin America</button>
+                            <button className={style.destiny} onClick={() => setOpenModal(false)}>Dubai</button>
                         </Link>
                     </div>
                 </div>
