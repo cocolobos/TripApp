@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/TripApp/static/css/main.72905298.chunk.css",
-    "main.js": "/TripApp/static/js/main.b80c4160.chunk.js",
-    "main.js.map": "/TripApp/static/js/main.b80c4160.chunk.js.map",
+    "main.js": "/TripApp/static/js/main.967ca161.chunk.js",
+    "main.js.map": "/TripApp/static/js/main.967ca161.chunk.js.map",
     "runtime-main.js": "/TripApp/static/js/runtime-main.5261a883.js",
     "runtime-main.js.map": "/TripApp/static/js/runtime-main.5261a883.js.map",
     "static/js/2.ffa7115c.chunk.js": "/TripApp/static/js/2.ffa7115c.chunk.js",
@@ -314,6 +314,6 @@
     "static/js/runtime-main.5261a883.js",
     "static/js/2.ffa7115c.chunk.js",
     "static/css/main.72905298.chunk.css",
-    "static/js/main.b80c4160.chunk.js"
+    "static/js/main.967ca161.chunk.js"
   ]
 }
