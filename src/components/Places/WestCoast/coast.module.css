@@ -1,9 +1,12 @@
-.mainBack{
-position: absolute;
-width: 100%;
-height: 100%;
-background: linear-gradient(rgb(218, 73, 136), rgb(241, 158, 4)) ;
-}
+.mainPic{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../../pictures/usa1.jpg');
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
 h1{
 font-family: fantasy;
 font-weight: 600;
@@ -11,22 +14,23 @@ font-size: 40px;
 margin-bottom: 4%;
 margin-top: 2%;
 }
-.worldMap{
+.buttonSize{
 background:linear-gradient(rgb(159, 180, 212), rgb(68, 223, 127),rgb(253, 196, 90)) ;
 margin-left: 20px;
 margin-right: 20px;
+margin-top: 20%;
 box-shadow: 1px 1px 5px black;
 border-radius: 15px;
-width: 30%;
-height: 30%;
+width: 15%;
+height: 15%;
 cursor: pointer;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 25px;
 }
-.worldMap:hover{
+.buttonSize:hover{
 opacity: 0.4;
 }
-.worldMap:focus{
+.buttonSize:focus{
 text-decoration: none;
 outline-style: none;
 }

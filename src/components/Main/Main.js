@@ -19,15 +19,21 @@ function Main () {
                             <button className={style.destiny} onClick={() => setOpenModal(false)}>Europe</button>
                         </Link>
                         <Link to='/thailand'>
-                            <button className={style.destiny} onClick={() => setOpenModal(false)}>Sudeste Asiatico</button>
+                            <button className={style.thaiDestiny} onClick={() => setOpenModal(false)}></button>
+                        </Link>
+                        <Link to='/thailand'>
+                            <button className={style.destiny} onClick={() => setOpenModal(false)}>Malasia</button>
                         </Link>
                     </div>
                     <div className={style.columnB}>
                         <Link to='/coast'>
-                            <button className={style.usDestiny} onClick={() => setOpenModal(true) && <WestCoast/>}></button>
+                            <button className={style.usDestiny} onClick={() => setOpenModal(true)}></button>
                         </Link>
                         <Link to='/latinamerica'>
                             <button className={style.destiny} onClick={() => setOpenModal(false)}>Dubai</button>
+                        </Link>
+                        <Link to='/thailand'>
+                            <button className={style.destiny} onClick={() => setOpenModal(false)}>Singapur</button>
                         </Link>
                     </div>
                 </div>

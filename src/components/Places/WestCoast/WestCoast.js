@@ -10,10 +10,10 @@ function WestCoast () {
     const [openModal, setOpenModal] = useState(false);
     const [openNewModal, setOpenNewModal] = useState(false);
     return (
-        <div className={style.mainBack}>
+        <div className={style.mainPic}>
             <Nav/>
             <h1>En que costa te gustaria comenzar ?</h1>
-            <button onClick={() => setOpenModal(true)} className={style.worldMap}>West Coast</button>
+            <button onClick={() => setOpenModal(true)} className={style.buttonSize}>West Coast</button>
             <Modal title="Donde quieres ir ?" openModal={openModal} setOpenModal={setOpenModal}>
                 <div className={style.columnfile}>
                     <div className={style.columnA}>
@@ -28,13 +28,13 @@ function WestCoast () {
                     </div>
                     <div className={style.columnA}>
                         <Link to='/california'>
-                            <button className={style.destiny} onClick={() => setOpenModal(true) && <California/>}>California</button>
+                            <button className={style.destiny} onClick={() => setOpenModal(true)}>California</button>
                         </Link>
                     </div>
                 </div>
                 <button className={style.BtnModCancel} onClick={() => setOpenModal(false)}>Close</button>
             </Modal>
-            <button onClick={() => setOpenNewModal(true)} className={style.worldMap}>East Coast</button>
+            <button onClick={() => setOpenNewModal(true)} className={style.buttonSize}>East Coast</button>
             <NewModal  title="Donde quieres ir ?" openNewModal={openNewModal} setOpenNewModal={setOpenNewModal}>
                 <div className={style.columnfile}>
                     <div className={style.columnA}>

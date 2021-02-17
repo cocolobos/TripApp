@@ -20,6 +20,10 @@ import FinaltialDistric from '../src/components/Places/EastCoast/NewYork/Finanti
 import CentralPark from '../src/components/Places/EastCoast/NewYork/CentralPark/CentralPark'
 import Neighbor from '../src/components/Places/EastCoast/NewYork/Neighbor/Neighbor'
 import Brooklyn from '../src/components/Places/EastCoast/NewYork/Brooklyn/Brooklyn'
+import Thailand from '../src/components/Places/Thailand/Thailand'
+import Bangkok from '../src/components/Places/Thailand/Bangkok/Bangkok'
+import Phuket from '../src/components/Places/Thailand/Phuket/Phuket'
+import Krabi from '../src/components/Places/Thailand/Krabi/Krabi'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -48,6 +52,10 @@ function App() {
           <Route path="/centralpark" component={CentralPark}></Route>
           <Route path="/neighbor" component={Neighbor}></Route>
           <Route path="/brooklyn" component={Brooklyn}></Route>
+          <Route path="/thailand" component={Thailand}></Route>
+          <Route path="/bangkok" component={Bangkok}></Route>
+          <Route path="/phuket" component={Phuket}></Route>
+          <Route path="/krabi" component={Krabi}></Route>
         </Switch>
       </div>
     </Router>

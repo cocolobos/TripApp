@@ -86,6 +86,24 @@ cursor: pointer;
 .usDestiny:focus{
   outline-style: none;
 }
+.thaiDestiny{
+  width: 60%;
+  color: rgb(239, 222, 216);
+  padding: 40px;
+  margin-top: 8%;
+  background-image: url('../../pictures/thailand.jpg');
+  background-size: contain;
+  box-shadow: 2px 2px 5px black;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.thaiDestiny:hover{
+  opacity: 0.4;
+}
+.thaiDestiny:focus{
+  outline-style: none;
+}
 .columnfile{
   display: flex;
   flex-direction: row;
