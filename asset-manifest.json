@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/TripApp/static/css/main.389a4aa1.chunk.css",
-    "main.js": "/TripApp/static/js/main.3d7641d6.chunk.js",
-    "main.js.map": "/TripApp/static/js/main.3d7641d6.chunk.js.map",
+    "main.css": "/TripApp/static/css/main.1a60dad0.chunk.css",
+    "main.js": "/TripApp/static/js/main.ad246104.chunk.js",
+    "main.js.map": "/TripApp/static/js/main.ad246104.chunk.js.map",
     "runtime-main.js": "/TripApp/static/js/runtime-main.5261a883.js",
     "runtime-main.js.map": "/TripApp/static/js/runtime-main.5261a883.js.map",
     "static/js/2.73a963ef.chunk.js": "/TripApp/static/js/2.73a963ef.chunk.js",
     "static/js/2.73a963ef.chunk.js.map": "/TripApp/static/js/2.73a963ef.chunk.js.map",
     "index.html": "/TripApp/index.html",
-    "static/css/main.389a4aa1.chunk.css.map": "/TripApp/static/css/main.389a4aa1.chunk.css.map",
+    "static/css/main.1a60dad0.chunk.css.map": "/TripApp/static/css/main.1a60dad0.chunk.css.map",
     "static/js/2.73a963ef.chunk.js.LICENSE.txt": "/TripApp/static/js/2.73a963ef.chunk.js.LICENSE.txt",
     "static/media/asuza.12999fe8.jpg": "/TripApp/static/media/asuza.12999fe8.jpg",
     "static/media/barbara2.40b1dd6f.jpg": "/TripApp/static/media/barbara2.40b1dd6f.jpg",
@@ -142,6 +142,7 @@
     "static/media/disney3.0a3bc3df.jpg": "/TripApp/static/media/disney3.0a3bc3df.jpg",
     "static/media/disney4.0feceba7.jpg": "/TripApp/static/media/disney4.0feceba7.jpg",
     "static/media/disneylandia.3fffd30f.jpg": "/TripApp/static/media/disneylandia.3fffd30f.jpg",
+    "static/media/main.module.css": "/TripApp/static/media/usa.7849138b.jpg",
     "static/media/elmonte.02a2b8c9.JPG": "/TripApp/static/media/elmonte.02a2b8c9.JPG",
     "static/media/elmonte2.f4d70378.jpg": "/TripApp/static/media/elmonte2.f4d70378.jpg",
     "static/media/elmonte3.3169deec.jpg": "/TripApp/static/media/elmonte3.3169deec.jpg",
@@ -289,7 +290,6 @@
     "static/media/phuket7.8205cf45.JPG": "/TripApp/static/media/phuket7.8205cf45.JPG",
     "static/media/phuket8.f7bd6ac4.JPG": "/TripApp/static/media/phuket8.f7bd6ac4.JPG",
     "static/media/phuket9.5df517f9.JPG": "/TripApp/static/media/phuket9.5df517f9.JPG",
-    "static/media/main.module.css": "/TripApp/static/media/usa.7849138b.jpg",
     "static/media/redwood.4b42996c.jpg": "/TripApp/static/media/redwood.4b42996c.jpg",
     "static/media/redwood2.b5c8b3cd.jpg": "/TripApp/static/media/redwood2.b5c8b3cd.jpg",
     "static/media/redwood3.1638b0a0.jpg": "/TripApp/static/media/redwood3.1638b0a0.jpg",
@@ -333,7 +333,7 @@
   "entrypoints": [
     "static/js/runtime-main.5261a883.js",
     "static/js/2.73a963ef.chunk.js",
-    "static/css/main.389a4aa1.chunk.css",
-    "static/js/main.3d7641d6.chunk.js"
+    "static/css/main.1a60dad0.chunk.css",
+    "static/js/main.ad246104.chunk.js"
   ]
 }
