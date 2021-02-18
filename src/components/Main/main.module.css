@@ -104,6 +104,63 @@ cursor: pointer;
 .thaiDestiny:focus{
   outline-style: none;
 }
+.dubaiDestiny{
+  width: 60%;
+  color: rgb(239, 222, 216);
+  padding: 40px;
+  margin-top: 8%;
+  background-image: url('../../pictures/dubai.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 5px black;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.dubaiDestiny:hover{
+  opacity: 0.4;
+}
+.dubaiDestiny:focus{
+  outline-style: none;
+}
+.malasiaDestiny{
+  width: 60%;
+  color: rgb(239, 222, 216);
+  padding: 40px;
+  margin-top: 8%;
+  background-image: url('../../pictures/malasia.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 5px black;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.malasiaDestiny:hover{
+  opacity: 0.4;
+}
+.malasiaDestiny:focus{
+  outline-style: none;
+}
+.singapurDestiny{
+  width: 60%;
+  color: rgb(239, 222, 216);
+  padding: 40px;
+  margin-top: 8%;
+  background-image: url('../../pictures/singapur.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 5px black;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.singapurDestiny:hover{
+  opacity: 0.4;
+}
+.singapurDestiny:focus{
+  outline-style: none;
+}
 .columnfile{
   display: flex;
   flex-direction: row;

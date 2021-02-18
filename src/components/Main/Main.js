@@ -12,7 +12,7 @@ function Main () {
             <Nav/>
             <h1>A donde quieres ir ?</h1>
             <button onClick={() => setOpenModal(true)} className={style.worldMap}></button>
-            <Modal title="Where to go ?" openModal={openModal} setOpenModal={setOpenModal}>
+            <Modal title="Hacia donde vas ?" openModal={openModal} setOpenModal={setOpenModal}>
                 <div className={style.columnfile}>
                     <div className={style.columnA}>
                         <Link to='/europe'>
@@ -22,7 +22,7 @@ function Main () {
                             <button className={style.thaiDestiny} onClick={() => setOpenModal(false)}></button>
                         </Link>
                         <Link to='/thailand'>
-                            <button className={style.destiny} onClick={() => setOpenModal(false)}>Malasia</button>
+                            <button className={style.malasiaDestiny} onClick={() => setOpenModal(false)}></button>
                         </Link>
                     </div>
                     <div className={style.columnB}>
@@ -30,10 +30,10 @@ function Main () {
                             <button className={style.usDestiny} onClick={() => setOpenModal(true)}></button>
                         </Link>
                         <Link to='/latinamerica'>
-                            <button className={style.destiny} onClick={() => setOpenModal(false)}>Dubai</button>
+                            <button className={style.dubaiDestiny} onClick={() => setOpenModal(false)}></button>
                         </Link>
                         <Link to='/thailand'>
-                            <button className={style.destiny} onClick={() => setOpenModal(false)}>Singapur</button>
+                            <button className={style.singapurDestiny} onClick={() => setOpenModal(false)}></button>
                         </Link>
                     </div>
                 </div>
