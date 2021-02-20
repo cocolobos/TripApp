@@ -89,6 +89,7 @@
     .uList{
     list-style: none;
     text-align: center;
+    padding: 9px;
     }
     .vegasList{
         text-decoration: none;

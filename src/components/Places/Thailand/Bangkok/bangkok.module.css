@@ -15,6 +15,10 @@
     color: rgb(2, 46, 12);
     text-shadow: 1px 1px black
     }
+    h4{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: underline;
+    }
     .introP{
     width: 98%;
     padding-bottom: 5px;
@@ -89,6 +93,7 @@
     .uList{
     list-style: none;
     text-align: center;
+    padding: 9px;
     }
     .vegasList{
         text-decoration: none;
