@@ -21,7 +21,7 @@ function Main () {
                         <Link to='/thailand'>
                             <button className={style.thaiDestiny} onClick={() => setOpenModal(false)}></button>
                         </Link>
-                        <Link to='/thailand'>
+                        <Link to='/malasia'>
                             <button className={style.malasiaDestiny} onClick={() => setOpenModal(false)}></button>
                         </Link>
                     </div>
@@ -29,7 +29,7 @@ function Main () {
                         <Link to='/coast'>
                             <button className={style.usDestiny} onClick={() => setOpenModal(true)}></button>
                         </Link>
-                        <Link to='/latinamerica'>
+                        <Link to='/dubai'>
                             <button className={style.dubaiDestiny} onClick={() => setOpenModal(false)}></button>
                         </Link>
                         <Link to='/thailand'>

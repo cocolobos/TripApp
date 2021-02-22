@@ -24,6 +24,9 @@ import Thailand from '../src/components/Places/Thailand/Thailand'
 import Bangkok from '../src/components/Places/Thailand/Bangkok/Bangkok'
 import Phuket from '../src/components/Places/Thailand/Phuket/Phuket'
 import Krabi from '../src/components/Places/Thailand/Krabi/Krabi'
+import Dubai from '../src/components/Places/Dubai/Dubai'
+import Malasia from '../src/components/Places/Malasia/Malasia'
+import KualaLumpur from '../src/components/Places/Malasia/KualaLumpur/KualaLumpur'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -56,6 +59,9 @@ function App() {
           <Route path="/bangkok" component={Bangkok}></Route>
           <Route path="/phuket" component={Phuket}></Route>
           <Route path="/krabi" component={Krabi}></Route>
+          <Route path="/dubai" component={Dubai}></Route>
+          <Route path="/malasia" component={Malasia}></Route>
+          <Route path="/kualalumpur" component={KualaLumpur}></Route>
         </Switch>
       </div>
     </Router>
